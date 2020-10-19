@@ -1,2 +1,2 @@
 # DevOpsWarriors
-Team Wiki
+Team Page
