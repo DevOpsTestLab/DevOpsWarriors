@@ -38,19 +38,17 @@ Below is the block diagram of how the pipeline should look like. _The blocks in 
 > Description: We will be using Jenkins as our CICD tool. Here is the link to our Jenkins repo, https://github.com/DevOpsTestLab/jenkins. 
 You should see a `kubernetes.yml` files which you can deploy on your local minikube version.
 
-> **Username and password to this instance is: `admin` and `admin`**
+> **Username and password for this instance is: `admin` and `admin`**
 
 > **Note**: Based on the latest update we have from our DevOps team(Before they vanished), this instance may not be fully ready, we know it spins up successfully.However, you may still have to modify any configuration, install plugins, create new configurations, add credentials to support our new onboarding initiative.
 
+***
 
-### Task 2: Spin-up our CICD infrastructure
+### Task 2: Setup a new multi-branch pipeline job for our hello world app
 
-Description: We will be using Jenkins as our CICD tool. Here is the link to our Jenkins repo, https://github.com/DevOpsTestLab/jenkins. 
-You should see a `kubernetes.yml` files which you can deploy on your local minikube version.
+> Description: Here is our flagship application which needs to be onboarded, https://github.com/DevOpsTestLab/sample-spring-boot. Fork this repository under your own github account so that you can work on it independently. You should see the `Jenkinfile` as part of the repository which our DevOps team created. Its developed in springboot and gradle is used as the build automation tool. Create a multi-branch pipeline project in our Jenkins instance and confirm that the build is successful.
 
-**Username and password to this instance is: `admin` and `admin`**
-
-**Note**: Based on the latest update we have from our DevOps team(Before they vanished), this instance may not be fully ready, we know it spins up successfully.However, you may still have to modify any configuration, install plugins, create new configurations, add credentials to support our new onboarding initiative.
+> **Note**: Feel free to install any plugin in Jenkins to make this work. Set-up GITHUB credentials in Jenkins so that it can checkout and perform the build.
 
 
 ### About our Customer
