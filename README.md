@@ -1,8 +1,7 @@
 # Welcome to the DevOps Warrior team!
 
 <p align="center">
-<img src="files/logo/logo.png"
-  alt="Size Limit comment in pull request about bundle size changes">
+<img src="files/logo/logo.png">
 </p>
 
 You have been brought into a scenario where our entire DevOps team just vanished over night. ~~We suspect it could be an alien abduction, since some of our engineers brought up UFO sightings in the stand-ups last week~~ (_Needs peer review_).
@@ -28,8 +27,7 @@ Below is the block diagram of how the pipeline should look like. _The blocks in 
 
 
 <p align="center">
-<img src="files/flow.jpg"
-  alt="Size Limit comment in pull request about bundle size changes">
+<img src="files/Flow.jpg">
 </p>
 
 
