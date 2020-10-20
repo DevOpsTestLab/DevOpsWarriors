@@ -35,12 +35,12 @@ Below is the block diagram of how the pipeline should look like. _The blocks in 
 
 ### Task 1: Spin-up our CICD infrastructure
 
-Description: We will be using Jenkins as our CICD tool. Here is the link to our Jenkins repo, https://github.com/DevOpsTestLab/jenkins. 
+> Description: We will be using Jenkins as our CICD tool. Here is the link to our Jenkins repo, https://github.com/DevOpsTestLab/jenkins. 
 You should see a `kubernetes.yml` files which you can deploy on your local minikube version.
 
-**Username and password to this instance is: `admin` and `admin`**
+> **Username and password to this instance is: `admin` and `admin`**
 
-**Note**: Based on the latest update we have from our DevOps team(Before they vanished), this instance may not be fully ready, we know it spins up successfully.However, you may still have to modify any configuration, install plugins, create new configurations, add credentials to support our new onboarding initiative.
+> **Note**: Based on the latest update we have from our DevOps team(Before they vanished), this instance may not be fully ready, we know it spins up successfully.However, you may still have to modify any configuration, install plugins, create new configurations, add credentials to support our new onboarding initiative.
 
 
 ### Task 2: Spin-up our CICD infrastructure
