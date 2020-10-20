@@ -56,6 +56,10 @@ You should see a `kubernetes.yml` files which you can deploy on your local minik
 
 > **Note**: Please make sure that you dont interfere with the ongoing development on the master branch. Follow branching and merging strategies as much as possible. The multi-branch pipeline will spin up automated jobs for each new branch you create. Feel free to look up in dockerhub for any docker images that you can find to use as the execution environment.
 
+> Here are some useful links, 
+- https://sonarcloud.io/documentation/analysis/analysis-parameters/
+- https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-jenkins/
+
 
 ### About our Customer
 This application will be targetted to our customers all around the globe who desperately need to be greeted with a **Hello**, specially during these tough times!
