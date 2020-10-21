@@ -64,7 +64,7 @@ You should see a `kubernetes.yml` files which you can deploy on your local minik
 
 ***
 
-### Task 3: Setup docker build and docker push
+### Task 4: Setup docker build and docker push
 
 > Description: Based on the latest update from the DevOps team, one of the engineers was "working" on containerzing the application. You should see a `Dockerfile` in the repo. We were told that the docker build was failing with the `COPY` step, troubleshoot the same and integrat it in the pipeline. Add a new stage for docker build and docker push to the docker hub. You may have already seen that the devops team has used [docker pipeline](https://www.jenkins.io/doc/book/pipeline/docker/) to use docker containers as our execution environment. Please stick to the same approach if possible.
 
