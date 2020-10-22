@@ -14,7 +14,7 @@ Our DevOps team was working day and night to get this application onto the CICD 
 
 # Listed below are our next steps!
 
-### Onboard the our flagship application onto the CICD pipeline
+### Onboard our flagship application onto the CICD pipeline
 
 **Status:** In-progress
 
@@ -78,4 +78,3 @@ You should see a `kubernetes.yml` files which you can deploy on your local minik
 > Description: Based on the latest update from the DevOps team, one of the engineers was "working" on creating the manifest file(`kubernetes.yml`) for our application. You should see a `kubernetes.yml` in the repo. Review the file carefully, it should have a deployment and a service definitions. Make any changes to it in-order to support this deployment. Setup a new stage in `Jenkinsfile` for App deployment and implement the deployment to your local kubernetes instance.
 
 > **Note**: Please make sure to not interfere with the ongoing development on the master branch. Follow branching and merging strategies as much as possible. The multi-branch pipeline will spin up automated jobs for each new branch you create. Feel free to look up in dockerhub for any docker images that you can find to use as the execution environment. For this you would need an execution environment with kubectl in it. You can use the https://plugins.jenkins.io/kubernetes-cd/ plugin for this, but its really up to you! Innovate and Improvise wherever possible!
-
