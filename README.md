@@ -12,6 +12,7 @@ We are planning for the big release of our **Hello World Application** by end of
 
 Our DevOps team was working day and night to get this application onto the CICD pipeline but, unfortunately they couldnt complete it, which is where you come in!
 
+# Listed below are our next steps!
 
 ### Onboard the our flagship application onto the CICD pipeline
 
@@ -69,4 +70,12 @@ You should see a `kubernetes.yml` files which you can deploy on your local minik
 > Description: Based on the latest update from the DevOps team, one of the engineers was "working" on containerzing the application. You should see a `Dockerfile` in the repo. We were told that the docker build was failing with the `COPY` step, troubleshoot the same and integrat it in the pipeline. Add a new stage for docker build and docker push to the docker hub. You may have already seen that the devops team has used [docker pipeline](https://www.jenkins.io/doc/book/pipeline/docker/) to use docker containers as our execution environment. Please stick to the same approach if possible.
 
 > **Note**: Please make sure to not interfere with the ongoing development on the master branch. Follow branching and merging strategies as much as possible. The multi-branch pipeline will spin up automated jobs for each new branch you create. Feel free to look up in dockerhub for any docker images that you can find to use as the execution environment. You can use your personal credentials to perform the docker push from Jenkins. Make sure to not put your credentials in clear text. Tag the docker images along with the Jenkins build number. Feel free to install any plugins as required.
+
+***
+
+### Task 5: Setup Application deployment onto your local kubernetes
+
+> Description: Based on the latest update from the DevOps team, one of the engineers was "working" on creating the manifest file(`kubernetes.yml`) for our application. You should see a `kubernetes.yml` in the repo. Review the file carefully, it should have a deployment and a service definitions. Make any changes to it in-order to support this deployment. Setup a new stage in `Jenkinsfile` for App deployment and implement the deployment to your local kubernetes instance.
+
+> **Note**: Please make sure to not interfere with the ongoing development on the master branch. Follow branching and merging strategies as much as possible. The multi-branch pipeline will spin up automated jobs for each new branch you create. Feel free to look up in dockerhub for any docker images that you can find to use as the execution environment. For this you would need an execution environment with kubectl in it. You can use the https://plugins.jenkins.io/kubernetes-cd/ plugin for this, but its really up to you! Innovate and Improvise wherever possible!
 
