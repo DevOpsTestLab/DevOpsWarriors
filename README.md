@@ -38,6 +38,11 @@ Below is the block diagram of how the pipeline should look like. _The blocks in 
 
 > Description: We will be using Jenkins as our CICD tool. Here is the link to our Jenkins repo, https://github.com/DevOpsTestLab/jenkins. 
 You should see a `kubernetes.yml` files which you can deploy on your local minikube version.
+Follow the below steps for deployment, 
+1. `kubectl apply -f https://raw.githubusercontent.com/DevOpsTestLab/jenkins/main/kubernetes/pvc.yml`
+2. `kubectl apply -f https://raw.githubusercontent.com/DevOpsTestLab/jenkins/main/kubernetes.yml`
+
+**Known issue:** If you run into persistent volume claim issues, just delete the pod and reapply the step 2 from above
 
 > **Username and password for this instance is: `admin` and `admin`**
 
