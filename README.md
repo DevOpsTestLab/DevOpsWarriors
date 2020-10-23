@@ -42,7 +42,7 @@ Follow the below steps for deployment,
 1. `kubectl apply -f https://raw.githubusercontent.com/DevOpsTestLab/jenkins/main/kubernetes/pvc.yml`
 2. `kubectl apply -f https://raw.githubusercontent.com/DevOpsTestLab/jenkins/main/kubernetes.yml`
 
-**Known issue:** If you run into persistent volume claim issues, just delete the pod and reapply the step 2 from above
+**Known issue:** If you run into persistent volume claim issues(` pod has unbound immediate PersistentVolumeClaims`), just delete the pod and reapply the step 2 from above
 
 > **Username and password for this instance is: `admin` and `admin`**
 
